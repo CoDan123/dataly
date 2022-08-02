@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    font-weight: 800;
+    letter-spacing: -.5px;
+    text-decoration: none;
+    color: #71229c;
+}
+
+.header-content-center-lvl-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    background: -webkit-linear-gradient(250deg,#ad5389, #3c1053);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-flex-items-lvl-4 {
+    width: 1152px;
+    padding: 48px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-flex-items-lvl-4 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 35px;
+    font-size: 16px;
+}
+
+.header-sign-up-button {
+    padding: 4px 16px;
+    border: 2px solid #71229c;
+}
+
+.hero {
+    width: 100%;
+    height: 850px;
+    background: -webkit-linear-gradient(250deg,#ad5389, #3c1053);
+    opacity: .75;
+}
+
+.home-quotes {
+    padding: 128px 0;
+}
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 155px;
+}
+
+.quotes-section-title h2 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+}
+
+.quotes {
+    max-width: 480px;
+}
+
+.quote-title-text {
+    font-size: 20px;
+    font-weight: 800;
+}
