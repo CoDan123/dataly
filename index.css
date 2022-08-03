@@ -11,6 +11,20 @@ a {
     color: #71229c;
 }
 
+.h2-headers {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin: 0 0 16px 0;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
 .header-content-center-lvl-3 {
     display: flex;
     justify-content: center;
@@ -71,19 +85,9 @@ a {
     margin: 0 155px;
 }
 
-.quotes-section-title h2 {
-    font-size: 48px;
-    font-weight: 800;
-    letter-spacing: -1.5px;
-    margin: 0 0 16px 0;
-}
 
-.quotes-section-title p {
-    font-size: 18px;
-    text-align: center;
-    margin: 0;
-    letter-spacing: 1px;
-}
+
+
 
 .quotes {
     margin-top: 4rem;
@@ -99,4 +103,15 @@ a {
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 1px;
+}
+
+.customer-story-flex-row {
+    display: flex;
+    margin: 128px 266px;
+}
+
+.customer-portrait-1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
 }
