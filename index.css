@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: Work Sans,sans-serif;
 }
 
 a {
@@ -75,13 +75,28 @@ a {
     font-size: 48px;
     font-weight: 800;
     letter-spacing: -1.5px;
+    margin: 0 0 16px 0;
+}
+
+.quotes-section-title p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
 }
 
 .quotes {
+    margin-top: 4rem;
     max-width: 480px;
 }
 
 .quote-title-text {
     font-size: 20px;
     font-weight: 800;
+}
+
+.quote-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
