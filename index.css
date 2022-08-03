@@ -143,6 +143,11 @@ p {
 }
 
 .flex-start-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
     max-width: 550px;
 }
 
