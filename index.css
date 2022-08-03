@@ -121,3 +121,16 @@ p {
     width: 80px;
     border-radius: 100%;
 }
+
+.background-image {
+    background-image: url(./Images/businessman-sitting-in-office-looking-at-smartphon-2022-03-04-01-46-05-utc.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 160px 0;
+    height: 380px;
+}
+
+.flex-start-text-container {
+    width: 480px;
+    margin: 0 170px;
+}
