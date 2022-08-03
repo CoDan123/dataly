@@ -125,7 +125,9 @@ p {
 }
 
 .background-image {
-    background-image: url(./Images/businessman-sitting-in-office-looking-at-smartphon-2022-03-04-01-46-05-utc.jpg), linear-gradient(red, yellow);
+    background-image:
+    linear-gradient(250deg, rgba(173, 83, 137, 0.52), rgba(60, 16, 83, 0.73)),
+    url('images/businessman-sitting-in-office-looking-at-smartphon-2022-03-04-01-46-05-utc.jpg');
     background-size: cover;
     background-position: center;
     padding: 160px 0;
@@ -141,5 +143,21 @@ p {
 }
 
 .flex-start-text {
-    max-width: 480px;
+    max-width: 550px;
+}
+
+.flex-start-text a {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #062c27;
+    border-width: 2px;
+    border-color: #fff;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
 }
