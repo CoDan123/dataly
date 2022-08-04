@@ -166,3 +166,7 @@ p {
     text-align: center;
     cursor: pointer;
 }
+
+.blog {
+    padding: 128px 0;
+}
