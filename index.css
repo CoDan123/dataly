@@ -183,5 +183,19 @@ p {
 
 .blog-card-link-flex-row {
     display: flex;
-    
+    justify-content: center;
+    gap: 32px;
+}
+
+.blog-card {
+    height: 477px;
+    width: 360px;
+    border: 1px solid #d6dae5;
+}
+
+.blog-card-topic {
+    font-size: 12px;
+    letter-spacing: .75px;
+    text-transform: uppercase;
+    color: #83858a;
 }
