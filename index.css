@@ -16,6 +16,7 @@ a {
     font-weight: 800;
     letter-spacing: -1.5px;
     margin: 0 0 16px 0;
+    line-height: 1.2;
 }
 
 p {
@@ -28,10 +29,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.fa-solid {
-    font-size: 25px;
 }
 
 .logo {
@@ -228,7 +225,10 @@ p {
 }
 
 .info-title-and-paragraph-inner {
-    
+    width: 600px;
+    height: 180px;
+    text-align: center;
+    margin: auto;
 }
 
 .info-icons-flex {
@@ -240,4 +240,24 @@ p {
     text-align: center;
     height: 195px;
     width: 384px;
+    padding: 24px 32px;
 }
+
+.info-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(250deg,#ad5389, #6d1e97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info-item-title {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 12px 0 4px 0;
+}
+
+.info-item-p {
+    font-size: 14px;
+}
+
