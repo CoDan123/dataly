@@ -170,3 +170,18 @@ p {
 .blog {
     padding: 128px 0;
 }
+
+.blog-title-and-paragraph {
+    width: 625px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blog-card-link-flex-row {
+    display: flex;
+    
+}
