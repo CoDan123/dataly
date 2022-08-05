@@ -222,3 +222,7 @@ p {
     color: #ad5389;
     text-decoration: underline;
 }
+
+.info-icons {
+    padding: 128px 0 64px 0;
+}
