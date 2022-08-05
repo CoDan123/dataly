@@ -226,3 +226,18 @@ p {
 .info-icons {
     padding: 128px 0 64px 0;
 }
+
+.info-title-and-paragraph-inner {
+    
+}
+
+.info-icons-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.img-title-paragraph-group {
+    text-align: center;
+    height: 195px;
+    width: 384px;
+}
