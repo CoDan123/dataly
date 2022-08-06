@@ -116,7 +116,7 @@ p {
     border: 1px solid #d6dae5;
 }
 
-.customer-portrait-1 {
+.customer-portrait {
     height: 80px;
     width: 80px;
     border-radius: 100%;
@@ -195,11 +195,12 @@ p {
     padding: 24px;
 }
 
-.blog-card-topic {
+.small-gray-text {
     font-size: 12px;
     letter-spacing: .75px;
     text-transform: uppercase;
     color: #83858a;
+    font-weight: 800;
 }
 
 .blog-card-title {
@@ -287,6 +288,9 @@ p {
 
 .customer-story-left {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .customer-story-featured-outer {
@@ -299,13 +303,14 @@ p {
     width: 83%;
     text-align: center;
     margin: auto;
+    border: 1px solid #d6dae5;
 }
 
 .see-all-button {
     font-size: 18px;
     border: 2px solid #71229c;
     padding: 16px 32px;
-    margin-top: 24px;
+    margin-top: 8px;
 }
 
 .trial-CTA {
