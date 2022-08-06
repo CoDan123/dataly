@@ -268,3 +268,40 @@ p {
     font-size: 18px;
 }
 
+.customer-story-flex-row-2 {
+    padding: 128px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.customer-story-container-2 {
+    display: flex;
+    align-items: center;
+}
+
+.customer-story-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 250px;
+    width: 576px;
+}
+
+.customer-story-featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 447px;
+    width: 400px;
+    margin-left: 96px;
+    border: 1px solid #d6dae5;
+}
+
+.see-all-button {
+    font-size: 18px;
+    border: 2px solid #71229c;
+    padding: 16px 32px;
+}
+
