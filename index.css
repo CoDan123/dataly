@@ -336,3 +336,42 @@ p {
     text-decoration: underline;
 }
 
+footer {
+    background-color: #062c27;
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 96px 0 142px 0;
+    color: white;
+}
+
+.footer-logo-box {
+    width: 50%;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+    width: 592px;
+}
+
+.link-group-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 165px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #d65da6;
+}
+
+.footer-links-list-header {
+    font-weight: 800;
+    color: white;
+}
+
