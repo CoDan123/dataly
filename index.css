@@ -261,3 +261,10 @@ p {
     font-size: 14px;
 }
 
+.info-see-everything {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
