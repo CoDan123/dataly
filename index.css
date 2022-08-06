@@ -240,7 +240,7 @@ p {
     text-align: center;
     height: 195px;
     width: 384px;
-    padding: 24px 32px;
+    padding: 24px;
 }
 
 .info-icon {
@@ -297,11 +297,27 @@ p {
     width: 400px;
     margin-left: 96px;
     border: 1px solid #d6dae5;
+    text-align: center;
 }
 
 .see-all-button {
     font-size: 18px;
     border: 2px solid #71229c;
     padding: 16px 32px;
+}
+
+.trial-CTA {
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(250deg,#ad5389, #3c1053);
+}
+
+.CTA-p {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
 }
 
