@@ -346,7 +346,7 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 96px 0 142px 0;
+    padding: 96px 0;
     color: white;
 }
 
@@ -384,5 +384,13 @@ footer {
     padding: 16px 32px;
     color: #062c27;
     background: -webkit-linear-gradient(250deg,#ca61a0, #7a21aa);
+}
+
+.copyright-container-inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 12px 0;
+    font-size: 12px;
+    color: #83858a;
 }
 
