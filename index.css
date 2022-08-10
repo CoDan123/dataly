@@ -5,7 +5,7 @@
     font-family: Work Sans,sans-serif;
 }
 
-.nav-text {
+a {
     font-weight: 800;
     letter-spacing: -.5px;
     text-decoration: none;
@@ -36,7 +36,7 @@ p {
     font-size: 40px;
     font-weight: 800;
     letter-spacing: -1.5px;
-    background: -webkit-linear-gradient(250deg,#ad5389, #59197c);
+    background: -webkit-linear-gradient(250deg,#ca61a0, #7a21aa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -238,6 +238,11 @@ p {
     border: 1px solid #d6dae5;
 }
 
+.blog-link-img {
+    max-width: 100%;
+    filter: grayscale(100%);
+}
+
 .blog-text-container {
     padding: 24px;
 }
@@ -381,6 +386,7 @@ footer {
 }
 
 .footer-trial-CTA-button {
+    font-weight: 800;
     padding: 16px 32px;
     color: #062c27;
     background: -webkit-linear-gradient(250deg,#ca61a0, #7a21aa);
