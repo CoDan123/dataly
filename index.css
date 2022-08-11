@@ -328,6 +328,7 @@ p {
 }
 
 .align-items-center {
+    display: flex;
     align-items: center;
 }
 
@@ -344,20 +345,16 @@ p {
     font-weight: 700;
     color: white;
     text-decoration: underline;
+    text-align: center;
 }
 
 footer {
     background-color: #062c27;
 }
 
-.footer-links-container {
+.footer-links-outer {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 96px 0;
-    color: white;
 }
 
 .footer-logo-box {
