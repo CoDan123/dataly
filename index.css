@@ -5,6 +5,10 @@
     font-family: Work Sans,sans-serif;
 }
 
+.parent {
+    overflow-x: hidden;
+}
+
 a {
     font-weight: 800;
     letter-spacing: -.5px;
@@ -24,6 +28,12 @@ p {
     font-size: 18px;
     margin: 0;
     letter-spacing: 1px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header-content-center-lvl-3 {
@@ -50,12 +60,10 @@ p {
 }
 
 .nav-flex-items-lvl-4 ul {
-    margin: 0;
-    padding: 0;
     display: flex;
     list-style-type: none;
     align-items: center;
-    gap: 35px;
+    gap: 2.5rem;
     font-size: 16px;
 }
 
