@@ -557,5 +557,10 @@ footer {
         font-size: 1.125rem;
         padding: 1rem;
     }
+
+    .customer-story-featured {
+        width: 100%;
+        padding: 1.5rem;
+    }
 }
 
