@@ -457,6 +457,35 @@ footer {
     color: #83858a;
 }
 
+/*features.html specific styling*/
+
+.data-features {
+    padding: 5rem 0;
+}
+
+.title-and-animation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.animation-container {
+    height: 500px;
+    width: 700px;
+    background: lightgray;
+}
+
+.flex-features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-h4-p {
+    width: 33.33333%;
+    padding: 16px;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px){
