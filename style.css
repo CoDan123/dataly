@@ -509,6 +509,12 @@ footer {
     padding: 16px;
 }
 
+/*testimonials.html specific styling*/
+
+.testimonial-flex-wrap-cards {
+    display: flex;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px){
