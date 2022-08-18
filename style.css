@@ -513,6 +513,23 @@ footer {
 
 .testimonial-flex-wrap-cards {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    width: 25%;
+    padding: 16px;
+}
+
+.testimonial-img {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    border: 1px solid #71229c;
+}
+
+.testimonial-card p {
+    margin-bottom: 16px;
 }
 
 /*Media Queries*/
