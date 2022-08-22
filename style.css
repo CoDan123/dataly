@@ -458,7 +458,6 @@ footer {
 }
 
 /*features.html specific styling*/
-
 .color-background {
     background: #f9eafa;
 }
@@ -510,7 +509,6 @@ footer {
 }
 
 /*testimonials.html specific styling*/
-
 .flex-wrap-top {
     display: flex;
     flex-wrap: wrap;
@@ -549,6 +547,11 @@ footer {
 
 .main-flex-card-inner p {
     margin-bottom: 16px;
+}
+
+/*pricing.html specific styling*/
+.pricing-blocks {
+    display: flex;
 }
 
 /*Media Queries*/
