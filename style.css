@@ -140,7 +140,7 @@ h1 {
     padding: 128px 0;
 }
 
-.quotes-section-title {
+.txt-aln-center {
     text-align: center;
 }
 
@@ -552,6 +552,16 @@ footer {
 /*pricing.html specific styling*/
 .pricing-blocks {
     display: flex;
+}
+
+.pricing-blocks p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pricing-block-padding-width {
+    padding: 2rem;
+    width: 33.33333%;
 }
 
 /*Media Queries*/
