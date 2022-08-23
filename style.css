@@ -609,7 +609,23 @@ footer {
 }
 
 .price-per-mo {
+    font-size: 24px;
+    color: gray;
+    margin: 8px 0 24px;
+}
 
+.pricing-sign-up {
+    max-width: 190px;
+    font-size: 20px;
+    padding: 12px 32px;
+    background-color: #71229c;
+    margin: 0 auto 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.fa-check {
+    color: #71229c;
 }
 
 /*Media Queries*/
