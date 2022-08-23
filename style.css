@@ -317,6 +317,7 @@ h1 {
 }
 
 .blog-paragraph {
+    position: relative;
     font-weight: 400;
     letter-spacing: -.2px;
     line-height: 1.3;
@@ -552,6 +553,7 @@ footer {
 /*pricing.html specific styling*/
 .pricing-blocks {
     display: flex;
+    align-items: center;
 }
 
 .pricing-blocks p {
@@ -559,9 +561,55 @@ footer {
     line-height: 1.5;
 }
 
+.pricing-block {
+    width: 33%;
+}
+
+.pricing-block-left-h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #71229c;
+}
+
+.fa-circle {
+    font-size: 6px;
+    position: absolute;
+    left: -16px;
+    top: 16px;
+}
+
+.pb-middle {
+    background: white;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    border: 1px solid #71229c;
+}
+
+.block-banner {
+    background-color: #71229c;
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
 .pricing-block-padding-width {
-    padding: 2rem;
-    width: 33.33333%;
+    padding: 48px 32px 24px 32px;
+}
+
+.smb-head {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    color: #71229c;
+    letter-spacing: -.75px;
+    padding: 0 16px;
+}
+
+.price-per-mo {
+
 }
 
 /*Media Queries*/
