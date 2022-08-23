@@ -596,16 +596,19 @@ footer {
 }
 
 .pricing-block-padding-width {
-    padding: 48px 32px 24px 32px;
+    padding: 24px 32px;
+}
+
+.head-spacing {
+    letter-spacing: -.75px;
+    line-height: 1;
 }
 
 .smb-head {
     font-size: 48px;
-    line-height: 1;
     font-weight: 700;
     color: #71229c;
-    letter-spacing: -.75px;
-    padding: 0 16px;
+    padding: 16px 16px 0 16px;
 }
 
 .price-per-mo {
@@ -625,6 +628,25 @@ footer {
 }
 
 .fa-check {
+    color: #71229c;
+}
+
+.pb-right {
+    background-color: white;
+    border: 1px solid #d6dae5;
+    border-left: 0;
+}
+
+.block-banner-2 {
+    text-align: center;
+    background: #f2f3f3;
+    padding: 20px 32px 24px;
+    border-bottom: 1px solid #d6dae5;
+    font-size: 14px;
+}
+
+.pb-right-head {
+    font-size: 36px;
     color: #71229c;
 }
 
