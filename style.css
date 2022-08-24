@@ -554,6 +554,11 @@ footer {
 }
 
 /*pricing.html specific styling*/
+
+.background-purple {
+    border-bottom: 1px solid #d6dae5;
+}
+
 .pricing-blocks {
     display: flex;
     align-items: center;
@@ -673,6 +678,25 @@ footer {
     color: #7e27ad;
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+.faq {
+    padding: 96px 24px 80px;
+}
+
+.faq-header {
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+
+.faq-flex-elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faq-element {
+    width: 50%;
+    padding: 24px 16px;
 }
 
 /*Media Queries*/
