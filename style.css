@@ -233,7 +233,7 @@ h1 {
 .background-image {
     background-image:
     linear-gradient(250deg, rgba(173, 83, 137, 0.62), rgba(60, 16, 83, 0.83)),
-    url('images/businessman-sitting-in-office-looking-at-smartphon-2022-03-04-01-46-05-utc.jpg');
+    url('images/businessman-sitting-in-office-looking-at-smartphon-2022-03-04-01-46-05-utc_1920.jpg');
     background-size: cover;
     background-position: center;
     padding: 160px 0;
@@ -697,6 +697,29 @@ footer {
 .faq-element {
     width: 50%;
     padding: 24px 16px;
+}
+
+/*blog.html specific styling*/
+.blog-content {
+    display: flex;
+}
+
+.blog-index {
+    width: 25%;
+}
+
+.blog-index ul {
+    list-style-type: none;
+}
+
+.blog-pg-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.blog-pg-card {
+    width: 33.33333%;
 }
 
 /*Media Queries*/
