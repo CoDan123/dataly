@@ -70,7 +70,7 @@ p {
 
 .nav-flex-items-lvl-4 {
     width: 1152px;
-    padding: 48px 24px;
+    padding: 48px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -700,16 +700,26 @@ footer {
 }
 
 /*blog.html specific styling*/
+.blog-h3 {
+    margin-bottom: 32px;
+}
+
 .blog-content {
     display: flex;
 }
 
 .blog-index {
+    padding: 16px;
     width: 25%;
+    border-right: 1px solid #d6dae5;
 }
 
 .blog-index ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     list-style-type: none;
+    text-decoration: underline;
 }
 
 .blog-pg-cards {
@@ -720,6 +730,11 @@ footer {
 
 .blog-pg-card {
     width: 33.33333%;
+}
+
+.page-number-index {
+    height: 180px;
+    width: 100%;
 }
 
 /*Media Queries*/
