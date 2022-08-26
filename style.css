@@ -738,15 +738,19 @@ footer {
 }
 
 /*signup.html specific styling*/
+.signup-gray-background {
+    padding: 32px 16px;
+}
 
 form input {
     width: 100%;
     font-size: 16px;
     border-radius: 4px;
     box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
-    padding: 8px;
+    padding: 10px;
     margin-top: 2px;
-
+    border: 1px solid #d6dae5;
+    color: #464951;
 }
 
 .signup {
@@ -760,20 +764,32 @@ form input {
 
 .user-info {
     width: 50%;
-    padding: 32px;
     border: 1px solid #d6dae5;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 8%);
+}
+
+.user-info-labels {
+    padding: 16px 32px 0;
 }
 
 .label-input-group {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 16px;
 }
 
 .site-address {
-    padding: 32px 0;
+    padding: 32px;
     margin-top: 32px;
     border-top: 1px solid #d6dae5;
+    background-color: #f4f4f4;
+}
+
+.label-input-site {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 0;
 }
 
 .signup-sidebar {

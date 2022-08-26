@@ -33,43 +33,48 @@
                 </div>
             </section>
 
-            <section>
+            <section class="signup-gray-background">
                 <div class="container">
                     <form class="signup">
                         <div class="pricing-flex">
                             <div class="user-info">
-                                <div class="label-input-group">
-                                    <label for="fname">First Name</label>
-                                    <input type="text" id="fname" name="fname">
-                                </div> 
-                                <div class="label-input-group">
-                                    <label for="lname">Last Name</label>
-                                    <input type="text" id="lname" name="lname">
-                                </div> 
-                                <div class="label-input-group">
-                                    <label for="email">Email</label>
-                                    <input type="text" id="email" name="email">
-                                </div> 
-                                <div class="label-input-group">
-                                    <label for="cname">Company Name</label>
-                                    <input type="text" id="cname" name="cname">
-                                </div> 
-                                <div class="label-input-group">
-                                    <label for="createpass">Create Password</label>
-                                    <input type="text" id="createpass" name="createpass">
-                                </div> 
-                                <div class="label-input-group">
-                                    <label for="conpass">Confirm Password</label>
-                                    <input type="text" id="conpass" name="conpass">
+                                <div class="user-info-labels">
+                                    <div class="label-input-group">
+                                        <label class="text-sm" for="fname">First Name</label>
+                                        <input type="text" id="fname" name="fname">
+                                    </div> 
+                                    <div class="label-input-group">
+                                        <label class="text-sm" for="lname">Last Name</label>
+                                        <input type="text" id="lname" name="lname">
+                                    </div> 
+                                    <div class="label-input-group">
+                                        <label class="text-sm" for="email">Email</label>
+                                        <input type="text" id="email" name="email">
+                                    </div> 
+                                    <div class="label-input-group">
+                                        <label class="text-sm" for="cname">Company Name</label>
+                                        <input type="text" id="cname" name="cname">
+                                    </div> 
+                                    <div class="label-input-group">
+                                        <label class="text-sm" for="createpass">Create Password</label>
+                                        <input type="text" id="createpass" name="createpass">
+                                    </div> 
+                                    <div class="label-input-group">
+                                        <label class="text-sm" for="conpass">Confirm Password</label>
+                                        <input type="text" id="conpass" name="conpass">
+                                    </div>
                                 </div>
                                 <div class="site-address">
-                                    <h3>Your site address</h3>
+                                    <h3>Your Data site address</h3>
                                     <p class="text-sm">
                                         Every data account has a specific 
                                         address you'll use to log in
                                     </p>
-                                    <input type="text" id="accaddress" name="accaddress">
-                                    <label for="accaddress">.dataapp.com</label>
+                                    <div class="label-input-site">
+                                        <input type="text" id="accaddress" name="accaddress">
+                                        <label for="accaddress">.dataapp.com</label>
+                                    </div>
+                                    <p class="text-sm">No spaces, letters and numbers only.</p>
                                 </div> 
                             </div>
                             <div class="signup-sidebar">
@@ -96,7 +101,7 @@
                         </div>
 
                         <div class="billing-info">
-                            <h3>Billing Information</h3>
+                            <h3>Billing Information <i class="fa-solid fa-lock"></i></h3>
                         </div>
 
                         <div class="pricing-flex">
