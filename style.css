@@ -59,6 +59,10 @@ p {
     color: white;
 }
 
+.pt-28 {
+    padding-top: 28px;
+}
+
 .logo {
     font-size: 40px;
     font-weight: 800;
@@ -775,6 +779,7 @@ form input {
 .label-input-group {
     display: flex;
     flex-direction: column;
+    gap: 3px;
     padding-top: 16px;
 }
 
@@ -785,7 +790,7 @@ form input {
     background-color: #f4f4f4;
 }
 
-.label-input-site {
+.label-input-row {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -793,6 +798,21 @@ form input {
 }
 
 .signup-sidebar {
+    width: 50%;
+    padding: 32px;
+}
+
+.billing-head {
+    padding: 32px 0 16px 0;
+}
+
+.billing-info {
+    width: 50%;
+    border: 1px solid #d6dae5;
+    padding: 16px;
+}
+
+.cancel-info {
     width: 50%;
     padding: 32px;
 }
