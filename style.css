@@ -737,6 +737,26 @@ footer {
     width: 100%;
 }
 
+/*signup.html specific styling*/
+.signup {
+    max-width: 800px;
+    margin: auto;
+}
+
+.pricing-flex {
+    display: flex;
+}
+
+.user-info {
+    width: 50%;
+    padding: 32px;
+}
+
+.signup-sidebar {
+    width: 50%;
+    padding: 32px;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px){
