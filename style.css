@@ -53,10 +53,6 @@ p {
     color: #7e27ad;
 }
 
-.float-right {
-    float: right;
-}
-
 .text-white {
     color: white;
 }
@@ -827,8 +823,26 @@ form input {
     border-bottom: 1px solid #d6dae5;
 }
 
+.signup-quote-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-p {
+    margin: 0 10px 20px 0;
+    max-width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .signup-switch {
     margin-bottom: 32px;
+}
+
+.switch-plan-btn {
+    font-size: 18px;
+    color: #3ba0f2;
+    text-decoration: underline;
 }
 
 .billing-head {
