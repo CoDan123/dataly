@@ -525,6 +525,15 @@ footer {
 }
 
 /*testimonials.html specific styling*/
+.main-testimonials {
+    padding: 80px 0 65px 0;
+}
+
+.testimonial-heading {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
 .flex-wrap-top {
     display: flex;
     flex-wrap: wrap;
