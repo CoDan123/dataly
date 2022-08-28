@@ -81,7 +81,7 @@ p {
 }
 
 .nav-flex-items-lvl-4 {
-    width: 1152px;
+    width: 100%;
     padding: 48px 0;
     display: flex;
     justify-content: space-between;
@@ -989,6 +989,10 @@ footer {
 }
 
 @media only screen and (max-width: 765px) {
+    .header-content-center-lvl-3 {
+        padding: 0;
+    }
+
     .nav-flex-items-lvl-4 {
         padding: 16px 24px;
         background: white;
