@@ -987,9 +987,23 @@ footer {
         margin-bottom: 16px;
     }
 
-    /*testimonials.html specific styling*/
+    /*testimonials.html responsive styling*/
     .testimonial-card {
         width: 50%;
+    }
+
+    /*pricing.html responsive styling*/
+    .pricing-blocks {
+        flex-direction: column;
+    }
+
+    .pricing-block {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .center-text-large {
+        padding: 24px 0 0 0;
     }
 }
 
@@ -1059,6 +1073,11 @@ footer {
     }
 
     .main-flex-card-outer {
+        width: 100%;
+    }
+
+    /*pricing.html responsive styling*/
+    .faq-element {
         width: 100%;
     }
 }
