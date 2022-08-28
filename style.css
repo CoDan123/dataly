@@ -989,6 +989,10 @@ footer {
 }
 
 @media only screen and (max-width: 765px) {
+    .blog-header-mob {
+        border-bottom: 1px solid #d6dae5;
+    }
+
     .header-content-center-lvl-3 {
         padding: 0;
     }
@@ -996,7 +1000,6 @@ footer {
     .nav-flex-items-lvl-4 {
         padding: 16px 24px;
         background: white;
-        border-bottom: 1px solid #d6dae5;
     }
 
     .nav-menu-items {
