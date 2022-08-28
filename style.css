@@ -986,6 +986,11 @@ footer {
     .footer-logo {
         margin-bottom: 16px;
     }
+
+    /*testimonials.html specific styling*/
+    .testimonial-card {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -1047,6 +1052,15 @@ footer {
     .feature-h4-p {
         width: 100%;
     }
+
+    /*testimonials responsive styling*/
+    .testimonial-card p {
+        font-size: 14px;
+    }
+
+    .main-flex-card-outer {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 479px){
@@ -1062,6 +1076,11 @@ footer {
     .customer-story-featured {
         width: 100%;
         padding: 1.5rem;
+    }
+
+    /*testimonials.html specific styling*/
+    .testimonial-card {
+        width: 100%;
     }
 }
 
