@@ -1023,6 +1023,23 @@ footer {
     .copyright-container-inner {
         padding: 12px 24px 96px;
     }
+
+    /*features.html specific styling*/
+    .title-and-animation {
+        flex-direction: column;
+    }
+
+    .animation-container {
+        width: 80%;
+    }
+
+    .flex-features {
+        flex-direction: column;
+    }
+
+    .feature-h4-p {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 479px){
