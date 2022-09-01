@@ -1006,10 +1006,6 @@ footer {
         width: 100%;
         margin-bottom: 24px;
     }
-
-    .center-text-large {
-        padding: 24px 0 0 0;
-    }
     /*blog.html specific styling*/
 .blog-pg-card {
     width: 50%;
@@ -1030,6 +1026,7 @@ footer {
     .nav-flex-items-lvl-4 {
         padding: 16px 24px;
         background: white;
+        border-bottom: 1px solid #d6dae5;
     }
 
     .nav-menu-items {
@@ -1037,7 +1034,7 @@ footer {
     }
 
     .hamburger-menu {
-        display: flex;
+        display: block;
     }  
     
     .info-icons-flex-wrap {
@@ -1059,6 +1056,15 @@ footer {
 
     .copyright-container-inner {
         padding: 12px 24px 96px;
+    }
+    
+    .mobile-active {
+        background-color: dodgerblue;
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
     }
 
     /*features.html specific styling*/
@@ -1099,7 +1105,7 @@ footer {
 
     .blog-pg-card {
         width: 100%;
-    }
+    }    
 }
 
 @media only screen and (max-width: 479px){
