@@ -657,7 +657,12 @@ footer {
     white-space: nowrap;
 }
 
+.pricing-check {
+    display: flex;
+}
+
 .fa-check {
+    padding: 12px 5px 0 0;
     color: #71229c;
 }
 
