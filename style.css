@@ -119,14 +119,8 @@ p {
 
 .hero {
     width: 100%;
-    height: 850px;
     padding: 32px 0 384px;
-}
-
-h1 {
-    font-size: calc(28px + (2800vw - 8960px)/880);
-    letter-spacing: -2px;
-    line-height: 1;
+    position: relative;
 }
 
 .hero-p {
@@ -155,6 +149,13 @@ h1 {
 
 .home-quotes {
     padding: 128px 0;
+}
+
+.bar-graph {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .txt-aln-center {
@@ -1134,9 +1135,5 @@ footer {
     .testimonial-card {
         width: 100%;
     }
-}
-
-#Desktop1 {
-    opacity: .5;
 }
 
