@@ -158,10 +158,16 @@ p {
     transform: translateX(-50%);
 }
 
+.bars-group {
+    opacity: 0;
+}
+
 /*SVG Animation*/
 
-#dark8 {
-    animation: inflate 2000ms ease-in-out;
+.inflate-bars {
+    opacity: 1;
+    transition: 150ms;
+    animation: inflate 600ms ease-in-out;
     transform-origin: bottom;
 }
 
@@ -171,8 +177,8 @@ p {
     100% {transform: scaleY(100%);}
 }
 
-#dateLines {
-    animation: fadeIn 1000ms;
+#dateLines, #dates {
+    animation: fadeIn 1500ms;
 }
 
 @keyframes fadeIn {
