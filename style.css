@@ -575,6 +575,9 @@ footer {
 
 .animation-container i {
     font-size: 85px;
+    background: -webkit-linear-gradient(250deg,#ad5389, #6d1e97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .h2-outer-box {
