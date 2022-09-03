@@ -162,19 +162,38 @@ p {
     opacity: 0;
 }
 
+.dot {
+    opacity: 0;
+}
+
 /*SVG Animation*/
 
 .inflate-bars {
     opacity: 1;
     transition: 150ms;
-    animation: inflate 600ms ease-in-out;
+    animation: inflateBars 600ms ease-in-out;
     transform-origin: bottom;
 }
 
-@keyframes inflate {
+.inflate-dots {
+    opacity: 1;
+    transition: 150ms;
+    animation: inflateDots 600ms ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes inflateBars {
     0% {transform: scaleY(100%);}
     50% {transform: scaleY(115%);}
     100% {transform: scaleY(100%);}
+}
+
+@keyframes inflateDots {
+    0% {transform: scale(25%);}
+    50% {transform: scale(150%);}
+    100% {transform: scale(100%);}
 }
 
 #dateLines, #dates {
