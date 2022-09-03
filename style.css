@@ -339,7 +339,7 @@ p {
     max-width: 550px;
 }
 
-.flex-start-text a {
+.background-img-btn {
     position: relative;
     display: inline-block;
     padding: 1rem 2rem;
@@ -347,12 +347,20 @@ p {
     font-size: 18px;
     font-size: 1.125rem;
     text-decoration: none;
-    color: #062c27;
+    color: white;
     border-width: 2px;
     border-color: #fff;
-    background-color: #fff;
+    background-color: #d37bff;
     text-align: center;
     cursor: pointer;
+    transition: 250ms;
+}
+
+.background-img-btn:hover {
+    transform: scale(105%);
+    background-color: #cc69fd;
+    color: white;
+    
 }
 
 .blog {
