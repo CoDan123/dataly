@@ -2,6 +2,7 @@
 const bars = document.getElementById("bars").children;  //For Bars SVG Animation Hero Section
 const dots = document.getElementById("dots").children;  //For Dots SVG Animation Hero Section
 
+//Hero Page Dot Animation
 for(let i = 0; i < dots.length; i++){
     if(i > 0){  //if its not the first element, apply the timeout delay
         setTimeout(() => {
@@ -13,6 +14,7 @@ for(let i = 0; i < dots.length; i++){
     
 }
 
+//Hero Page Bar Animation
 for(let i = 0; i < bars.length; i++){
     if(i > 0){  //if its not the first element, apply the timeout delay
         setTimeout(() => {

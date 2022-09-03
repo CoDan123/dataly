@@ -23,6 +23,11 @@ a {
     color: #71229c;
 }
 
+h1 {
+    font-size: 56px;
+    line-height: 1;
+}
+
 .h2-headers {
     font-size: 48px;
     font-weight: 700;
@@ -70,6 +75,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 12px;
 }
 
 .logo {
@@ -123,12 +129,17 @@ p {
     position: relative;
 }
 
+.hero-offer-text {
+    position: relative;
+    z-index: 1;
+}
+
 .hero-p {
     width: 55%;
     margin: 10px 0 20px;
     color: black;
     letter-spacing: -.2px;
-    font-size: calc(14px + (400vw - 1280px)/880);
+    font-size: 18px;
 }
 
 .hero-button {
@@ -140,6 +151,10 @@ p {
     padding: 16px 32px;
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.hero-button:hover {
+    cursor: pointer;
 }
 
 .hero-pricing-link {
@@ -156,6 +171,7 @@ p {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 0;
 }
 
 .bars-group {
@@ -980,12 +996,17 @@ footer {
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px){
+    h1 {
+        font-size: 1.75rem;
+    }
+
     .h2-headers {
         font-size: 2.25rem;
     }
 
     .hero-p {
         width: 100%;
+        font-size: calc(14px + (400vw - 1280px)/880);
     }
 
     .home-quotes {
@@ -1077,9 +1098,9 @@ footer {
         margin-bottom: 24px;
     }
     /*blog.html specific styling*/
-.blog-pg-card {
-    width: 50%;
-}
+    .blog-pg-card {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 765px) {
