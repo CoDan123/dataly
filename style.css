@@ -555,14 +555,30 @@ footer {
 .title-and-animation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 3rem;
 }
 
 .animation-container {
-    height: 500px;
-    width: 700px;
-    background: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 33.33333%;
+    
+}
+
+.feature-icon-flex {
+    width: 50%;
+    text-align: center;
+    margin: auto 0;
+}
+
+.animation-container i {
+    font-size: 85px;
+}
+
+.h2-outer-box {
+    width: 33.33333%;
 }
 
 .flex-features {
