@@ -103,6 +103,10 @@ p {
     font-size: 16px;
 }
 
+.current-page {
+    color: #080c16;
+}
+
 .hamburger-menu {
     display: none;
 }
