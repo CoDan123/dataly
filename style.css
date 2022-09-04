@@ -107,12 +107,17 @@ p {
     color: #080c16;
 }
 
+.nav-text:hover {
+    color: #3d1353;
+}
+
 .hamburger-menu {
     display: none;
 }
 
 .hover-color-background {
     background-color: #71229c;
+    cursor: pointer;
 }
 
 .header-sign-up-button {
@@ -299,8 +304,13 @@ p {
 .see-all-button {
     font-size: 18px;
     border: 2px solid #71229c;
-    padding: 16px 32px;
-    margin-top: 8px;
+    padding: 18px 32px;
+    background-color: white;
+    transition: 150ms;
+}
+
+.see-all-button:hover {
+    transform: translate(5px, -5px);
 }
 
 .quote-text-24 {
