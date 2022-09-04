@@ -111,7 +111,7 @@ p {
     display: none;
 }
 
-.button-color-background {
+.hover-color-background {
     background-color: #71229c;
 }
 
@@ -120,6 +120,7 @@ p {
     border: 2px solid #71229c;
     background-color: white;
     cursor: pointer;
+    transition: 150ms;
 }
 
 .header-sign-up-button:hover {
@@ -354,15 +355,15 @@ p {
     color: white;
     border-width: 2px;
     border-color: #fff;
-    background-color: #d37bff;
+    background-color: #cc69fd;
     text-align: center;
     cursor: pointer;
-    transition: 250ms;
+    transition: 150ms;
 }
 
 .background-img-btn:hover {
     transform: scale(105%);
-    background-color: #cc69fd;
+    background-color: #c456fc;
     color: white;
     
 }
@@ -388,8 +389,17 @@ p {
 }
 
 .blog-card {
+    height: 500px;
     max-width: 360px;
     border: 1px solid #d6dae5;
+    background-color: white;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.blog-card:hover {
+    transform: translate(10px, -10px);
+    border: 2px solid #71229c;
 }
 
 .blog-link-img {
