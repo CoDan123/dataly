@@ -17,6 +17,11 @@ body, html {
     position: relative;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+    position: fixed;
+}
+
 a {
     font-weight: 700;
     text-decoration: none;

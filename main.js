@@ -2,6 +2,11 @@
 const bars = document.getElementById("bars").children;  //For Bars SVG Animation Hero Section
 const dots = document.getElementById("dots").children;  //For Dots SVG Animation Hero Section
 
+
+const navMenuItems = document.getElementById("nav-menu-items");   //Get Nav Menu
+const parentDiv = document.getElementById("parent");
+
+
 //Hero Page Dot Animation
 for(let i = 0; i < dots.length; i++){
     if(i > 0){  //if its not the first element, apply the timeout delay
@@ -24,6 +29,12 @@ for(let i = 0; i < bars.length; i++){
         bars[i].classList.toggle("inflate-bars")    //if current element is first in loop, apply class without setTimeout/delay
     }
     
+}
+
+//Mobile-Menu
+toggleMobile = () => {
+    navMenuItems.classList.toggle("mobile-active");
+    parentDiv.classList.toggle("overflow-hidden"); 
 }
 
 

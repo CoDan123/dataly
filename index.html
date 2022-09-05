@@ -9,13 +9,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="parent">
+    <div id="parent" class="parent">
 
         <header>
             <div class="header-content-center-lvl-3 container">
                 <div class="nav-flex-items-lvl-4">
                     <a href="./index.html"><div class="logo">Data1</div></a>
-                    <nav class="nav-menu-items">
+                    <nav id="nav-menu-items" class="nav-menu-items">
                         <ul>
                             <li><a class="nav-text" href="./features.html">Features</a></li>
                             <li><a class="nav-text" href="./testimonials.html">Testimonials</a></li>
@@ -28,7 +28,7 @@
                             </div>
                         </ul>
                     </nav>
-                    <li class="hamburger-menu"><i class="fa-solid fa-bars"></i></li>
+                    <li onclick="toggleMobile()" class="hamburger-menu"><i class="fa-solid fa-bars"></i></li>
                 </div>
             </div>
         </header>
