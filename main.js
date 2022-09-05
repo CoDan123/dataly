@@ -5,7 +5,7 @@ const dots = document.getElementById("dots").children;  //For Dots SVG Animation
 
 const navMenuItems = document.getElementById("nav-menu-items");   //Get Nav Menu to add class mobile-active
 const parentDiv = document.getElementById("parent"); //Get Parent div for overflow hidden
-const navUl = document.getElementById("nav-ul");
+
 
 
 //Hero Page Dot Animation
@@ -36,7 +36,7 @@ for(let i = 0; i < bars.length; i++){
 toggleMobile = () => {
     navMenuItems.classList.toggle("mobile-active");
     parentDiv.classList.toggle("overflow-hidden");
-    navUl.classList.toggle("nav-ul-mobile"); 
+     
 }
 
 
