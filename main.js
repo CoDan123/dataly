@@ -1,12 +1,15 @@
-
-const bars = document.getElementById("bars").children;  //For Bars SVG Animation Hero Section
-const dots = document.getElementById("dots").children;  //For Dots SVG Animation Hero Section
-
-
 const navMenuItems = document.getElementById("nav-menu-items");   //Get Nav Menu to add class mobile-active
 const parentDiv = document.getElementById("parent"); //Get Parent div for overflow hidden
 
+//Mobile-Menu
+toggleMobile = () => {
+    navMenuItems.classList.toggle("mobile-active");
+    parentDiv.classList.toggle("overflow-hidden");
+     
+}
 
+const bars = document.getElementById("bars").children;  //For Bars SVG Animation Hero Section
+const dots = document.getElementById("dots").children;  //For Dots SVG Animation Hero Section
 
 //Hero Page Dot Animation
 for(let i = 0; i < dots.length; i++){
@@ -32,12 +35,7 @@ for(let i = 0; i < bars.length; i++){
     
 }
 
-//Mobile-Menu
-toggleMobile = () => {
-    navMenuItems.classList.toggle("mobile-active");
-    parentDiv.classList.toggle("overflow-hidden");
-     
-}
+
 
 
 

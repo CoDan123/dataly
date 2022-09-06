@@ -14,13 +14,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="parent">
-        <header class="container blog-header-mob">
+    <div id="parent" class="parent">
+        <header>
             <div class="header-content-center-lvl-3 container">
                 <div class="nav-flex-items-lvl-4">
                     <a href="./index.html"><div class="logo"><i class="fa-solid fa-chart-simple"></i>Data1</div></a>
-                    <nav class="nav-menu-items">
-                        <ul>
+                    <nav id="nav-menu-items" class="nav-menu-items">
+                        <ul id="nav-ul">
                             <li><a class="nav-text" href="./features.html">Features</a></li>
                             <li><a class="nav-text" href="./testimonials.html">Testimonials</a></li>
                             <li><a class="nav-text" href="./pricing.html">Pricing</a></li>
@@ -32,6 +32,7 @@
                             </div>
                         </ul>
                     </nav>
+                    <li onclick="toggleMobile()" class="hamburger-menu"><i class="fa-solid fa-bars"></i></li>
                 </div>
             </div>
         </header>
@@ -201,5 +202,6 @@
             </div>
         </footer>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>

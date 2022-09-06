@@ -1157,10 +1157,6 @@ footer {
         font-size: 32px;
     }
 
-    .blog-header-mob {
-        border-bottom: 1px solid #d6dae5;
-    }
-
     .header-content-center-lvl-3 {
         padding: 0;
     }
@@ -1189,6 +1185,8 @@ footer {
         height: 100vh;
         width: 100%;
         z-index: 3;
+       
+        animation: fadeIn 500ms;
     }
 
     .hamburger-menu {
