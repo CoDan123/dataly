@@ -376,11 +376,10 @@ p {
     transition: 150ms;
 }
 
-.background-img-btn:hover {
+.background-img-btn:hover, .pricing-sign-up:hover {
     transform: scale(105%);
     background-color: #c456fc;
     color: white;
-    
 }
 
 .blog {
@@ -788,6 +787,7 @@ footer {
     font-weight: 700;
     color: white;
     white-space: nowrap;
+    transition: 150ms;
 }
 
 .pricing-check {
