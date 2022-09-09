@@ -1,12 +1,12 @@
 const navMenuItems = document.getElementById("nav-menu-items");   //Get Nav Menu to add class mobile-active
 const parentDiv = document.getElementById("parent"); //Get Parent div for overflow hidden
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 
 //Mobile-Menu
-toggleMobile = () => {
+hamburgerMenu.addEventListener("click", () => {
     navMenuItems.classList.toggle("mobile-active");
-    parentDiv.classList.toggle("overflow-hidden");
-     
-}
+    parentDiv.classList.toggle("overflow-hidden");    
+})
 
 const bars = document.getElementById("bars").children;  //For Bars SVG Animation Hero Section
 const dots = document.getElementById("dots").children;  //For Dots SVG Animation Hero Section
