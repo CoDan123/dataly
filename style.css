@@ -918,8 +918,10 @@ footer {
 .blg-pg-numbers {
     font-size: 18px;
     width: 22px;
-    margin: 0 4px;
+    margin: 0 6px;
     text-align: center;
+    font-weight: 400;
+    color: black;
 }
 
 .pg-nmb-highlight {
@@ -932,7 +934,7 @@ footer {
 }
 
 .chevron-gray {
-    color: gray;
+    color: lightgray;
 }
 
 /*signup.html specific styling*/
