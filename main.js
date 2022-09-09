@@ -1,6 +1,6 @@
-const navMenuItems = document.getElementById("nav-menu-items");   //Get Nav Menu to add class mobile-active
-const parentDiv = document.getElementById("parent"); //Get Parent div for overflow hidden
-const hamburgerMenu = document.querySelector(".hamburger-menu");
+const navMenuItems = document.getElementById("nav-menu-items");    //get nav menu to add class mobile-active
+const parentDiv = document.getElementById("parent");    //get parent div for overflow hidden
+const hamburgerMenu = document.querySelector(".hamburger-menu");    //get hamburger for toggle mobile menu
 
 //Mobile-Menu
 hamburgerMenu.addEventListener("click", () => {

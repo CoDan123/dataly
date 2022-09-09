@@ -330,6 +330,7 @@ p {
     color: #71229c;
     margin-top: .5rem;
     text-decoration: underline;
+    font-weight: 700;
 }
 
 .customer-portrait {
@@ -440,6 +441,8 @@ p {
 
 .blog-card-title {
     font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
     color: #080c16;
     padding-top: 4px;
 }
@@ -457,6 +460,8 @@ p {
     color: #ad5389;
     text-decoration: underline;
 }
+
+
 
 .info-icons {
     padding: 128px 0 75px 0;
@@ -871,6 +876,7 @@ footer {
 
 .blog-content {
     display: flex;
+    padding-bottom: 96px;
 }
 
 .blog-index {
@@ -898,8 +904,35 @@ footer {
 }
 
 .page-number-index {
-    height: 180px;
+    padding-bottom: 80px;
     width: 100%;
+}
+
+.page-numbers {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.blg-pg-numbers {
+    font-size: 18px;
+    width: 22px;
+    margin: 0 4px;
+    text-align: center;
+}
+
+.pg-nmb-highlight {
+    background-color: #71229c;
+    color: white;
+}
+
+.chevron-purple {
+    color: #71229c;
+}
+
+.chevron-gray {
+    color: gray;
 }
 
 /*signup.html specific styling*/
