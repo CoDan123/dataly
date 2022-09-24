@@ -1207,6 +1207,15 @@ footer {
     .blog-pg-card {
         width: 50%;
     }
+
+    /*about.html specific styling*/
+    .about-inner {
+        width: 100%;
+    }
+
+    .about-inner h1 {
+        font-size: 60px;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -1246,7 +1255,6 @@ footer {
         height: 100vh;
         width: 100%;
         z-index: 3;
-       
         animation: fadeIn 500ms;
     }
 
@@ -1321,7 +1329,12 @@ footer {
 
     .blog-pg-card {
         width: 100%;
-    }    
+    }   
+    
+    /*about section specific styling*/
+    .about-inner h1 {
+        font-size: 48px;
+    }
 }
 
 @media only screen and (max-width: 479px){
