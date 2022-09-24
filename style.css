@@ -1080,6 +1080,24 @@ footer {
     border-radius: 5px;
 }
 
+/*about.html specific styling*/
+.about-text {
+    padding-bottom: 80px;
+}
+
+.about-inner {
+    width: 50%;
+}
+
+.about-h3 {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1024px){
