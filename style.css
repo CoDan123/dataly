@@ -1080,6 +1080,21 @@ footer {
     border-radius: 5px;
 }
 
+/*.blogpage.html specific styling*/
+.blog-article {
+    padding-top: 32px;
+}
+
+.mw-900 {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 96px;
+}
+
+blockquote {
+    margin: 28px 48px;
+}
+
 /*about.html specific styling*/
 .about-text {
     padding: 30px 0 80px 0;
