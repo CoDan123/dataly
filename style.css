@@ -82,12 +82,7 @@ p {
 }
 
 .logo {
-    font-size: 40px;
-    font-weight: 800;
-    letter-spacing: -1.5px;
-    background: -webkit-linear-gradient(250deg,#ca61a0, #7a21aa);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    width: 200px;
 }
 
 .nav-flex-items-lvl-4 {
@@ -873,6 +868,15 @@ footer {
     margin-bottom: 32px;
 }
 
+.img-box {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.blog-img {
+    width: 100%;
+}
+
 .blog-content {
     display: flex;
     padding-bottom: 96px;
@@ -1083,6 +1087,10 @@ footer {
 /*.blogpage.html specific styling*/
 .blog-article {
     padding-top: 32px;
+}
+
+.max-750 {
+    max-width: 750px;
 }
 
 .mw-900 {
