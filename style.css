@@ -1091,8 +1091,54 @@ footer {
     padding: 0 96px;
 }
 
+.raw-content {
+    padding-bottom: 192px;
+    margin-bottom: 85px;
+    border-bottom: 1px solid #ccc;
+}
+
 blockquote {
     margin: 28px 48px;
+}
+
+.blog-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+    margin: 0 0 24px 24px;
+}
+
+.newsletter {
+    width: 450px;
+    padding: 30px 18px 18px 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-elements {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nl-input {
+    padding: 15px;
+    font-size: 14px;
+    width: 66%;
+    border: 1px solid black;
+    border-radius: 4px 0 0 4px;
+}
+
+.nl-btn {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    font-weight: 500;
+}
+
+.post-cards {
+    margin: 50px 0 125px 0;
 }
 
 /*about.html specific styling*/
