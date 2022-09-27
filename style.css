@@ -674,6 +674,7 @@ footer {
 .flex-wrap-top {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 32px;
 }
 
 .testimonial-card {
