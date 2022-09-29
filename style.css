@@ -1316,6 +1316,10 @@ blockquote {
         position: fixed;
     }
 
+    .home-hero-gradient {
+        height: 750px;
+    }
+
     h1 {
         font-size: 2.2rem;
     }
