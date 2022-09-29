@@ -607,7 +607,6 @@ footer {
 
 .center-text-large h2 {
     margin-bottom: 48px;
-    font-size: 2.25rem;
 }
 
 .center-text-large a {
@@ -1362,6 +1361,10 @@ blockquote {
     }
 
     /*features.html specific styling*/
+    .features-sub {
+        font-size: 1.75rem;
+    }
+
     .title-and-animation {
         flex-direction: column;
     }
@@ -1416,6 +1419,10 @@ blockquote {
 }
 
 @media only screen and (max-width: 479px){
+    h1 {
+        font-size: 1.8rem;
+    }
+
     .hero-p {
         line-height: 1.15;
     }
@@ -1429,7 +1436,12 @@ blockquote {
         width: 100%;
         padding: 1.5rem;
     }
+    /*features.html specific styling*/
+    .features-sub {
+        font-size: 1.2rem;
+    }
 
+    
     /*testimonials.html specific styling*/
     .testimonial-card {
         width: 100%;
