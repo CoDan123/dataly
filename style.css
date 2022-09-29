@@ -1173,7 +1173,7 @@ blockquote {
 @media only screen and (max-width: 1024px){
     
     h1 {
-        font-size: 1.75rem;
+        font-size: 3.5rem;
     }
 
     .h2-headers {
@@ -1314,6 +1314,10 @@ blockquote {
     .overflow-hidden {
         overflow: hidden;
         position: fixed;
+    }
+
+    h1 {
+        font-size: 2.2rem;
     }
 
     .mobile-active {
