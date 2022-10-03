@@ -1079,6 +1079,7 @@ footer {
 }
 
 .start-trial-btn {
+    cursor: pointer;
     margin-top: 38px;
     border: none;
     border-radius: 5px;
